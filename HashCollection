@@ -1,0 +1,22 @@
+using System.Collections;
+using System;
+namespace CollectionProject
+{
+class HashCollection
+{
+    static void Main()
+    {
+       
+       HashTable.Add("Eid",1001);
+        HashTable.Add("EName", "KD");
+        HashTable.Add("Salary",25000.0);
+        HashTable.Add("Desg","Manager");
+        HashTable.Add("Dept","Sales");
+        HashTable.Add("Email","KD@gmail.com");
+        HashTable.Add("Loc","Pune");
+       Console.WriteLine(ht["Eid"]);
+       Console.ReadLine();
+    }
+}
+    
+}
